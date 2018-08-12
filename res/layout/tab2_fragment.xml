@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background">
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="318dp"
+            android:layout_height="27dp"
+            android:layout_marginBottom="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:checked="false"
+            android:text="@string/strobe_with_music"
+            android:textColor="@color/text"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/switch2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Switch
+            android:id="@+id/switch3"
+            android:layout_width="319dp"
+            android:layout_height="46dp"
+            android:layout_marginBottom="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginStart="16dp"
+            android:text="@string/change_color_and_strobe_with_music"
+            android:textColor="@color/text"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/switch4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/switch2" />
+
+        <Switch
+            android:id="@+id/switch8"
+            android:layout_width="319dp"
+            android:layout_height="27dp"
+            android:layout_marginBottom="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginStart="16dp"
+            android:text="@string/placeholder"
+            android:textColor="@color/text"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/switch9"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/switch7" />
+
+        <Switch
+            android:id="@+id/switch9"
+            android:layout_width="319dp"
+            android:layout_height="27dp"
+            android:layout_marginBottom="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginStart="16dp"
+            android:text="@string/placeholder"
+            android:textColor="@color/text"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/switch8" />
+
+        <Switch
+            android:id="@+id/switch7"
+            android:layout_width="319dp"
+            android:layout_height="32dp"
+            android:layout_marginBottom="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginStart="16dp"
+            android:text="@string/rainbow"
+            android:textColor="@color/text"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/switch8"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/switch6" />
+
+        <Switch
+            android:id="@+id/switch6"
+            android:layout_width="319dp"
+            android:layout_height="27dp"
+            android:layout_marginBottom="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginStart="16dp"
+            android:text="@string/strobe_and_change_color"
+            android:textColor="@color/text"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/switch7"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/switch5" />
+
+        <Switch
+            android:id="@+id/switch5"
+            android:layout_width="319dp"
+            android:layout_height="27dp"
+            android:layout_marginBottom="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginStart="16dp"
+            android:text="@string/strobe"
+            android:textColor="@color/text"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/switch6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/switch4" />
+
+        <Switch
+            android:id="@+id/switch4"
+            android:layout_width="319dp"
+            android:layout_height="27dp"
+            android:layout_marginBottom="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginStart="16dp"
+            android:text="@string/change_color_randomly"
+            android:textColor="@color/text"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/switch5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/switch3" />
+
+        <Switch
+            android:id="@+id/switch2"
+            android:layout_width="319dp"
+            android:layout_height="27dp"
+            android:layout_marginBottom="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginStart="16dp"
+            android:text="@string/change_color_with_music"
+            android:textColor="@color/text"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/switch3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/switch1" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>

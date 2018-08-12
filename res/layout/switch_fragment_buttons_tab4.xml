@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:tag="BUTTONS_TAG">
+
+    <Button
+        android:id="@+id/btn1"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="360dp"
+        android:layout_height="42dp"
+        android:text="@string/lights_1_30"
+        app:layout_constraintBottom_toTopOf="@+id/btn2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn2"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="360dp"
+        android:layout_height="42dp"
+        android:text="@string/lights_31_60"
+        app:layout_constraintBottom_toTopOf="@+id/btn3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn1" />
+
+    <Button
+        android:id="@+id/btn3"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="360dp"
+        android:layout_height="42dp"
+        android:text="@string/lights_61_90"
+        app:layout_constraintBottom_toTopOf="@+id/btn4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn2" />
+
+    <Button
+        android:id="@+id/btn4"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="360dp"
+        android:layout_height="42dp"
+        android:text="@string/lights_91_120"
+        app:layout_constraintBottom_toTopOf="@+id/btn5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn3" />
+
+    <Button
+        android:id="@+id/btn5"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="360dp"
+        android:layout_height="42dp"
+        android:text="@string/lights_121_150"
+        app:layout_constraintBottom_toTopOf="@+id/btn6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn4" />
+
+    <Button
+        android:id="@+id/btn6"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="360dp"
+        android:layout_height="42dp"
+        android:text="@string/lights_151_180"
+        app:layout_constraintBottom_toTopOf="@+id/btn7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn5" />
+
+    <Button
+        android:id="@+id/btn7"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="360dp"
+        android:layout_height="42dp"
+        android:text="@string/lights_181_210"
+        app:layout_constraintBottom_toTopOf="@+id/btn8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn6" />
+
+    <Button
+        android:id="@+id/btn8"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="360dp"
+        android:layout_height="42dp"
+        android:text="@string/lights_211_240"
+        app:layout_constraintBottom_toTopOf="@+id/btn9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn7" />
+
+    <Button
+        android:id="@+id/btn9"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="360dp"
+        android:layout_height="42dp"
+        android:text="@string/lights_241_270"
+        app:layout_constraintBottom_toTopOf="@+id/btn10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn8" />
+
+    <Button
+        android:id="@+id/btn10"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="360dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="48dp"
+        android:text="@string/lights_271_300"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn9" />
+
+</android.support.constraint.ConstraintLayout>

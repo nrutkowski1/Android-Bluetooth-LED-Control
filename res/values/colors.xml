@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ColorPreset1">#ff0000</color>
+    <color name="ColorPreset2">#ff4000</color>
+    <color name="ColorPreset3">#ff8000</color>
+    <color name="ColorPreset4">#ffc000</color>
+    <color name="ColorPreset5">#ffe100</color>
+    <color name="ColorPreset6">#c0ff00</color>
+    <color name="ColorPreset7">#80ff00</color>
+    <color name="ColorPreset8">#40dc00</color>
+    <color name="ColorPreset9">#00ff00</color>
+    <color name="ColorPreset10">#00cc40</color>
+    <color name="ColorPreset11">#00ff80</color>
+    <color name="ColorPreset12">#00ffc0</color>
+    <color name="ColorPreset13">#00ffff</color>
+    <color name="ColorPreset14">#00c0ff</color>
+    <color name="ColorPreset15">#0080ff</color>
+    <color name="ColorPreset16">#0040ff</color>
+    <color name="ColorPreset17">#0000ff</color>
+    <color name="ColorPreset18">#4000ff</color>
+    <color name="ColorPreset19">#8000ff</color>
+    <color name="ColorPreset20">#c000ff</color>
+    <color name="ColorPreset21">#ffffff</color>
+    <color name="ColorPreset22">#ff00ff</color>
+    <color name="ColorPreset23">#ff00c0</color>
+    <color name="ColorPreset24">#ff0080</color>
+    <color name="ColorPreset25">#000000</color>
+    <color name="background">#282828</color>
+    <color name="ColorPreset26">#ffff00</color>
+    <color name="Rainbow_Random">#898989</color>
+    <color name="text">#dcdcdc</color>
+    <color name="LEDControl">#707070</color>
+    <color name="ColorPresetWhite">#ffffff</color>
+    <color name="ColorPresetBlack">#000000</color>
+    <color name="col">#4000ff</color>
+    <color name="afe">#c000ff</color>
+</resources>
