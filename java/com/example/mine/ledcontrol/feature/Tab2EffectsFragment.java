@@ -84,7 +84,7 @@ public class Tab2EffectsFragment extends Fragment {
 
                             if (outputStream != null) {
 
-                                outputStream.write(("ySWITCH0" + '\n').getBytes());
+                                outputStream.write(("0" + '\n').getBytes());
                             }
 
                         } catch (IOException e) {
@@ -152,7 +152,7 @@ public class Tab2EffectsFragment extends Fragment {
 
                             if (outputStream != null) {
 
-                                outputStream.write(("ySWITCH0" + '\n').getBytes());
+                                outputStream.write(("0" + '\n').getBytes());
                             }
 
                         } catch (IOException e) {
@@ -219,7 +219,7 @@ public class Tab2EffectsFragment extends Fragment {
 
                             if (outputStream != null) {
 
-                                outputStream.write(("ySWITCH0" + '\n').getBytes());
+                                outputStream.write(("0" + '\n').getBytes());
                             }
 
                         } catch (IOException e) {
@@ -286,7 +286,7 @@ public class Tab2EffectsFragment extends Fragment {
 
                             if (outputStream != null) {
 
-                                outputStream.write(("ySWITCH0" + '\n').getBytes());
+                                outputStream.write(("0" + '\n').getBytes());
                             }
 
                         } catch (IOException e) {
@@ -354,7 +354,7 @@ public class Tab2EffectsFragment extends Fragment {
 
                             if (outputStream != null) {
 
-                                outputStream.write(("ySWITCH0" + '\n').getBytes());
+                                outputStream.write(("0" + '\n').getBytes());
                             }
 
                         } catch (IOException e) {
@@ -422,7 +422,7 @@ public class Tab2EffectsFragment extends Fragment {
 
                             if (outputStream != null) {
 
-                                outputStream.write(("ySWITCH0" + '\n').getBytes());
+                                outputStream.write(("0" + '\n').getBytes());
                             }
 
                         } catch (IOException e) {
@@ -490,7 +490,7 @@ public class Tab2EffectsFragment extends Fragment {
 
                             if (outputStream != null) {
 
-                                outputStream.write(("ySWITCH0" + '\n').getBytes());
+                                outputStream.write(("0" + '\n').getBytes());
                             }
 
                         } catch (IOException e) {
@@ -558,7 +558,7 @@ public class Tab2EffectsFragment extends Fragment {
 
                             if (outputStream != null) {
 
-                                outputStream.write(("ySWITCH0" + '\n').getBytes());
+                                outputStream.write(("0" + '\n').getBytes());
                             }
 
                         } catch (IOException e) {
@@ -626,7 +626,7 @@ public class Tab2EffectsFragment extends Fragment {
 
                             if (outputStream != null) {
 
-                                outputStream.write(("ySWITCH0" + '\n').getBytes());
+                                outputStream.write(("0" + '\n').getBytes());
                             }
 
                         } catch (IOException e) {
