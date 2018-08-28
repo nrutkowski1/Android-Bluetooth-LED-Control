@@ -13,6 +13,8 @@ The app is a series of tabs each of which can be customized by the user. The fun
 
 I have updated the "Effects" tab in the Android app to my preferences and have written most of the functions to control these effects in the Arduino. I will update both the Android and Arduino code as I develop these further. You may develop your own effects and program them yourself, get creative! If you wish to change the displayed text for the switches in the "Effects" tab you can do so by changing the text of the switches in the layout file, tab2_fragment.xml. 
 
+**8/28/2018** - I have updated the schematic and pcb design fo an Arduino shield. There was a problem in the original one where the bluetooth TXD and RXD pins were not properly connected to the TX and RX pins of the Arduino. 
+
 **IMPORTANT NOTE** there is currently an issue with the responsiveness of the Arduino code when turning off an effect. Basically the current state of the code prevents the Arduino from always being able to read data from the bluetooth device. This means that in order to turn off an effect it may require you to repeatedly turn the switch on and off several times before the Arduino is actually able to read the data from the bluetooth device. I am working on reducing this effect and fixing the problem. The Arduino code will be updated when completed. 
 
 ## Main Activity 
@@ -57,13 +59,11 @@ The fourth tab is a set of buttons which allows navigation to a view with a set 
 
 ## Circuit Schematic 
 
-### I have found a mistake in the circuit schematic and PCB design that I have below I will update this soon.
-
 Below is a schematic for the circuit which has an AUX input and an HC-05 bluetooth device. This is designed such that the power and ground are from the Arduino. If you want to connect an LED strip you must connect the data pin from the light strip to a digital pin on the Arduino and connect the ground of the light strip to the ground of the Arduino as well as the ground of the power supply for the light strip. 
 
 <a href="https://github.com/nrutkowski1/Android_Bluetooth_LED_Control/blob/master/Images/schematic.png"><img src="https://github.com/nrutkowski1/Android_Bluetooth_LED_Control/blob/master/Images/schematic.png" height="300"></a>
 
 Using the schematic above I designed a PCB which is used as a shield for the Arduino UNO.
 
-<a href="https://github.com/nrutkowski1/Android_Bluetooth_LED_Control/blob/master/Images/pcb.png"><img src="https://github.com/nrutkowski1/Android_Bluetooth_LED_Control/blob/master/Images/pcb.png" height="300"></a>
+<a href="https://github.com/nrutkowski1/Android_Bluetooth_LED_Control/blob/master/Images/pcb_updated.png"><img src="https://github.com/nrutkowski1/Android_Bluetooth_LED_Control/blob/master/Images/pcb_updated.png" height="300"></a>
 
