@@ -57,7 +57,9 @@ The fourth tab is a set of buttons which allows navigation to a view with a set 
 
 ## Circuit Schematic 
 
-Below is a schematic for the circuit which has an AUX input and an HC-05 bluetooth device. This is designed such that the power and ground are from the Arduino. If you want to connect an LED strip you must connect the data pin frmo the light strip to a digital pin on the Arduino and connect the ground of the light strip to the ground of the Arduino as well as the ground of the power supply for the light strip. 
+### I have found a mistake in the circuit schematic and PCB design that I have below I will update this soon.
+
+Below is a schematic for the circuit which has an AUX input and an HC-05 bluetooth device. This is designed such that the power and ground are from the Arduino. If you want to connect an LED strip you must connect the data pin from the light strip to a digital pin on the Arduino and connect the ground of the light strip to the ground of the Arduino as well as the ground of the power supply for the light strip. 
 
 <a href="https://github.com/nrutkowski1/Android_Bluetooth_LED_Control/blob/master/Images/schematic.png"><img src="https://github.com/nrutkowski1/Android_Bluetooth_LED_Control/blob/master/Images/schematic.png" height="300"></a>
 
