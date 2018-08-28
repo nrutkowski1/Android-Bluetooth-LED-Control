@@ -7,13 +7,19 @@ Arduino code will be uploaded once completed
 
 The app is a series of tabs each of which can be customized by the user. The functionality of each button can be changed within the Arduino code. 
 
-## Arduino Code
+## *UPDATES* 
 
 **8/23/2018** - I have uploaded the Arduino code used to receive and process the data from the Android app. To set up the Arduino connect the bluetooth module VCC to 5V and GND to GND, connect the RX and TX pins to digital pins and define these in the Arduino code. If you wish to use an AUX input for music effects you must build the circuit in the schematic below. 
 
 I have updated the "Effects" tab in the Android app to my preferences and have written most of the functions to control these effects in the Arduino. I will update both the Android and Arduino code as I develop these further. You may develop your own effects and program them yourself, get creative! If you wish to change the displayed text for the switches in the "Effects" tab you can do so by changing the text of the switches in the layout file, tab2_fragment.xml. 
 
-**8/28/2018** - I have updated the schematic and pcb design fo an Arduino shield. There was a problem in the original one where the bluetooth TXD and RXD pins were not properly connected to the TX and RX pins of the Arduino. 
+**8/28/2018** - I have updated the schematic and pcb design fo an Arduino shield. There was a problem in the original one where the bluetooth TXD and RXD pins were not properly connected to the TX and RX pins of the Arduino.
+
+## Arduino Code
+
+To set up the Arduino connect the bluetooth module VCC to 5V and GND to GND, connect the RX and TX pins to digital pins or, the RX and TX pins of the Arduino, and define these in the Arduino code. If you wish to use an AUX input for music effects you must build the circuit in the schematic below. 
+
+I will update both the Android and Arduino code as I develop these further. You may develop your own effects and program them yourself, get creative! If you wish to change the displayed text for the switches in the "Effects" tab you can do so by changing the text of the switches in the layout file, tab2_fragment.xml.  
 
 **IMPORTANT NOTE** there is currently an issue with the responsiveness of the Arduino code when turning off an effect. Basically the current state of the code prevents the Arduino from always being able to read data from the bluetooth device. This means that in order to turn off an effect it may require you to repeatedly turn the switch on and off several times before the Arduino is actually able to read the data from the bluetooth device. I am working on reducing this effect and fixing the problem. The Arduino code will be updated when completed. 
 
