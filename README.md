@@ -72,4 +72,9 @@ Below is a schematic for the circuit which has an AUX input and an HC-05 bluetoo
 Using the schematic above I designed a PCB which is used as a shield for the Arduino UNO.
 
 <a href="https://github.com/nrutkowski1/Android_Bluetooth_LED_Control/blob/master/Images/pcb_updated.png"><img src="https://github.com/nrutkowski1/Android_Bluetooth_LED_Control/blob/master/Images/pcb_updated.png" height="300"></a>
+### *Top Layer*
+<a href="/https://github.com/nrutkowski1/Android-Bluetooth-LED-Control/blob/master/Images/topLayerPCB.png"><img src="https://github.com/nrutkowski1/Android-Bluetooth-LED-Control/blob/master/Images/topLayerPCB.png" height="300"></a>
+### *Bottom Layer*
+<a href="/https://github.com/nrutkowski1/Android-Bluetooth-LED-Control/blob/master/Images/bottomLayerPCB.png"><img src="https://github.com/nrutkowski1/Android-Bluetooth-LED-Control/blob/master/Images/bottomLayerPCB.png" height="300"></a>
+
 
